@@ -26,8 +26,17 @@ namespace Assignment3
 
             #endregion
 
-           
+            #region Add a public string Title; field to Book. Set it and print it from Main.
 
-        }
+            //Book book = new Book();
+            //Console.WriteLine(book.Title);
+            //the value of Title show in console because it public
+            //public means show in everywhere
+
+            #endregion
+
+
+
     }
+}
 }
