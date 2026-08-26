@@ -6,7 +6,6 @@ namespace Assignment3
     {
         static void Main(string[] args)
         {
-
             #region Add a private string password = "secret"; field to a Book class. Try to print it from Main (outside the class). What happens, and why?
 
             //Book book = new Book();
@@ -17,7 +16,85 @@ namespace Assignment3
 
             #endregion
 
-           
+            #region Add an internal int copiesInStock = 5; field to Book. Print it from Main. Does it compile? Why ?
+
+            //Book book = new Book();
+            //Console.WriteLine(book.copiesInStock);
+            // the value of copiesInStock show in console because it internal
+            // internal means show in the same assemply
+
+
+            #endregion
+
+            #region Add a public string Title; field to Book. Set it and print it from Main.
+
+            //Book book = new Book();
+            //Console.WriteLine(book.Title);
+            // the value of Title show in console because it public
+            // public means show in everywhere
+
+            #endregion
+
+            #region Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book, assign it Genre.Science, and print it.
+
+            //Book book = new Book();
+            //Console.WriteLine(book.genre);
+
+
+            #endregion
+
+            #region Using the Genre enum above, print the underlying int value of Genre.Fiction, Genre.NonFiction, and Genre.Science by casting each to int.
+
+            //Genre genre01 = Genre.Fiction;
+            //Genre genre02 = Genre.NonFiction;
+            //Genre genre03 = Genre.Science;
+            //Console.WriteLine((int)genre01);
+            //Console.WriteLine((int)genre02);
+            //Console.WriteLine((int)genre03);
+
+            #endregion
+
+            #region Given int genreNumber = 1;, cast it into a Genre value and print the result.
+
+            //int genreNumber = 1;
+            //Console.WriteLine((Genre)genreNumber);
+
+
+            #endregion
+
+            #region  Given Genre genre = Genre.Fiction;, convert it into a string using ToString() and print it.
+
+            //Genre genre = Genre.Fiction;
+            //string s = genre.ToString();
+            //Console.WriteLine(s);
+
+            #endregion
+
+            #region  Given string genreText = "Science";, convert it into a Genre value using Enum.Parse() and print the result.
+
+            //string genreText = "Science";
+            //Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            //Console.WriteLine((int)genre);
+
+
+            #endregion
+
+            #region Given string genreText = "Mystery"; (not a valid Genre value), use Enum.TryParse() to attempt the conversion.Print "Unknown genre" if it fails.
+
+            //string genreText = "Mystery";
+
+            //try
+            //{
+            //    Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            //}
+            //catch(Exception ex)
+            //{
+            //    Console.WriteLine("Unknown genre");
+            //}
+
+
+            #endregion
+
 
         }
     }
