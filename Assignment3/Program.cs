@@ -62,7 +62,14 @@ namespace Assignment3
 
             #endregion
 
-         
+            #region  Given Genre genre = Genre.Fiction;, convert it into a string using ToString() and print it.
+
+            //Genre genre = Genre.Fiction;
+            //string s = genre.ToString();
+            //Console.WriteLine(s);
+
+            #endregion
+
            
 
         }
