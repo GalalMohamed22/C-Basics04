@@ -30,13 +30,22 @@ namespace Assignment3
 
             //Book book = new Book();
             //Console.WriteLine(book.Title);
-            //the value of Title show in console because it public
-            //public means show in everywhere
+            // the value of Title show in console because it public
+            // public means show in everywhere
 
             #endregion
 
+            #region Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book, assign it Genre.Science, and print it.
+
+            //Book book = new Book();
+            //Console.WriteLine(book.genre);
 
 
+            #endregion
+
+           
+           
+
+        }
     }
-}
 }
